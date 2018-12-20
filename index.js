@@ -22,14 +22,14 @@ if (arr.length != 0) {
 
 function currentLine(arr){
 if (!arr.length) {
-  return "The line is currently empty"}
+  return "The line is currently empty."}
  let newArr = []
   for (let i = 0;i<arr.length;i++ ){
-    newArr.push(i+1 + "." + " " + arr[i])
+    newArr.push(i+1 + "."  + arr[i])
   }
-  newArr.join();
+  
 console.log(`The line is currently: ${newArr}`);
-  return `The line is currently: ${newArr}`
+  return `The line is currently:`+ newArr.join(",")
 }
 
 
