@@ -25,7 +25,7 @@ return "There is nobody waiting to be served!"
 }
 else {
 //  return "Currently serving " + arr[0] + ".";
- return "Currently serving " + arrs.shift() + ".";
+ return "Currently serving " + arr.shift() + ".";
 }
 }
 
