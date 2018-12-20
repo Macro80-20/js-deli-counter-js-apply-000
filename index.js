@@ -21,10 +21,10 @@ if (arr.length != 0) {
 }*/
 function nowServing(arr){
 if (!arr.length) {
-return "There is nobody waiting to be served!"  
+return "There is nobody waiting to be served!"
 }
 else {
-  return "Currently serving " + arr[0];
+  return "Currently serving " + arr[0] + ".";
 }
 }
 
