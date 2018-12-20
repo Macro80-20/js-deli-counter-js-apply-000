@@ -13,12 +13,21 @@ function takeANumber(arr,name){
   return `Welcome, ${name}. You are number ${queuePosition} in line.`
 }
 
-function nowServing(arr){ // the challenge is creating a string if the array is empty.
+/*function nowServing(arr){ // the challenge is creating a string if the array is empty.
 if (arr.length != 0) {
   return `Currently serving ${arr.splice(0,1)}`
 } else {
   return `There is nobody waiting to be served!`}
+}*/
+function nowServing(arr){
+if (!arr.length) {
+return "There is nobody waiting to be served!"  
 }
+else {
+  return "Currently serving " + arr[0];
+}
+}
+
 
 function currentLine(arr){
 if (!arr.length) {
